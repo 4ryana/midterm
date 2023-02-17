@@ -1,0 +1,106 @@
+body {
+  background-color: #97A288;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  color: #3C2218;
+  line-height: 25px;
+}
+
+.header_box {
+  width: 100%;
+  padding-left: 20px;
+  font-size: 2rem;
+}
+
+
+.intro {
+  width: 50%;
+  padding-left: 25px;
+  margin-top: -20px;
+}
+
+
+.coffee_box {
+  margin: auto;
+  width: 100%;
+  padding-top: 25px;
+  padding-left: 25px;
+}
+
+#coffee_table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  color: #3C2218;
+  font-size: 1.5rem;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  text-align: left;
+  background-color: #FFFCF1;
+  border: 3px solid #FFFCF1;
+}
+
+#latte,
+#mocha,
+#cappuccino,
+#americano,
+#drip {
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: #3C2218;
+}
+
+#parts_latte,
+#parts_mocha,
+#parts_cap,
+#parts_americano,
+#parts_drip {
+  line-height: 22px;
+}
+
+#parts_latte td,
+#parts_mocha td,
+#parts_cap td,
+#parts_americano td,
+#parts_drip td {
+  border: 0px solid !important;
+}
+
+img {
+  /*offer alternatice format */
+  width: 150px;
+}
+
+#coffee_table td {
+  border-bottom: 3px solid #FFFCF1;
+  text-align: left;
+}
+
+.audio {
+  width: 20%;
+  padding: 22px;
+
+}
+
+.external_link {
+  text-align: left;
+  font-size: 12px !important;
+  width: 580px;
+  margin-left: 49%;
+  margin-top: -75px;
+}
+
+a:link {
+  color: #3C2218
+}
+
+a:visited {
+  color: tan;
+}
+
+a:hover {
+  color: #FFFCF1;
+}
